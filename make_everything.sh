@@ -7,7 +7,7 @@ cd build_cmake
 mkdir -p build_dbg
 cd build_dbg
 cmake ../../ -DCMAKE_BUILD_TYPE=Debug
-make -j
+make -j4
 cd ..
 # Run the release build
 mkdir -p build_rel
